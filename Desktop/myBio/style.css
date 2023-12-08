@@ -1,0 +1,22 @@
+
+
+
+form{
+    width: 100%;
+    margin:20px 37px;
+    text-align: center;
+}
+
+input, textarea{
+width: 70%;
+padding: 7px;
+outline: none;
+display: block;
+border-radius: 4px;
+margin-bottom: 10px;
+}
+
+ul li{
+    color: #fff;
+}
+    
