@@ -1,0 +1,40 @@
+.jada1{
+    color: green;
+    font-size: 1rem;
+}
+
+.jada2{
+    color: aqua;
+    font-size: 2rem;
+}
+
+.jada3{
+    color:rgb(0, 255, 34);
+    font-size: 3rem;
+}
+
+.jada4{
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+}
+
+.village{
+    color: #ff0000;
+    font-size: 4rem;
+}
+
+img{
+transform: translate(-50%,-50%);
+animation: jade 1.5s infinite linear;
+margin-top: 20%;
+margin-left: 50%;
+}
+
+@keyframes jade{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
